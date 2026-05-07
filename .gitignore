@@ -1,0 +1,25 @@
+cat > .gitignore << 'EOF'
+# Session folders (contain login cookies - never push!)
+linkedin_session/
+x_session/
+
+# Debug files
+linkedin_debug.html
+linkedin_screenshot.png
+linkedin_logged_in.png
+linkedin_search_result.png
+x_logged_in.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# n8n data
+.n8n/
+
+# OS files
+.DS_Store
+Thumbs.db
+EOF
