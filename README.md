@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 
 # 🤖 Auto Bidding Bot — LinkedIn & X Automation
 
